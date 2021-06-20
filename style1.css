@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Trocchi&display=swap');
+body{
+	font-family: 'Poppins', sans-serif
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Trocchi', serif;
+}
+*{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+	width:100%;
+	height:1200px;
+/*	background:pink;*/
+}
+header{
+	width: 100%;
+	height: 80px;
+/*	background: #585858*/
+}
+.header-main{
+	width:100%;
+	height:80px;
+	background:#555050;
+}
+.menu ul{
+	list-style: none;
+	margin:0 0 0 500px;
+	}
+.menu ul li{
+	float:left;
+	margin: 0 40px 0 10px;
+	line-height: 80px;
+	text-align: right;
+	}
+.menu ul li a{
+	text-decoration: none;
+	color:#323232;
+
+}
+.logo img{
+	width: 10%;
+	height: auto;
+	float:left;
+	margin:25px 80px;
+	
+}
+.banner{
+	width: 100%;
+	height:700px;
+	background: url("img/brooke-lark-kXQ3J7_2fpc-unsplash.jpg");
+	background-size:cover;
+	padding-top:100px;
+	box-sizing: border-box
+}
+.banner h2{
+	font-size:40px;
+	margin:0 0 0 80px;
+}
+.banner p{
+	margin-left: 80px;
+	
+}
+.w-btn{
+	background: #E1CB64;
+	width:10%;
+	height:35px;
+	border-radius: 20px;
+	margin: 5px 0 0 80px ;
+}
+.btn{
+	line-height: 35px;
+	text-decoration: none;
+	color:#FFF8F8;
+	text-align: center;
+	display: block;
+}
+.btn:hover{
+	color:#E1CB64;
+	background: #3C6423;
+	border-radius:20px;
+	transition-duration: 0.3s;
+}
+.zero{
+	width: 100%;
+	height: 280px;
+/*	background: #B83134*/
+}
+.content1{
+	width: 50%;
+	margin-left: 65px;
+}
+.content1 h2{
+	
+	line-height: 280px;
+	font-size: 35px;
+}
+.content2{
+	width: 50%;
+	float: right;
+	margin-top:120px;
+	
+}
+.content2 p{
+	font-size: 14px
+}
+.section3{
+	width: 100%;
+	}
+
+.pic1{
+	width: 75%;
+	height: 550px;
+	background: url("img/2_f0a197e1-e036-4795-a000-40cff9966f82.jpg");
+	background-size:cover;
+	background-position: center
+	
+}
+.info{
+	
+	width: 25%;
+	height: 550px;
+/*	background: pink;*/
+	float: right
+}
+.info h6{
+	text-align: center;
+	padding-top:275px;
+	box-sizing: border-box}
+.info p{
+	text-align: center;
+	font-size: 12px;
+	margin-top:5px;
+	
+}
+.info h4{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 13px
+}
+
+.gallery .l--btn{
+	border-color:#ff834b;
+	margin:20px 0 0 110px;
+	
+}
+.l--btn {
+/*	background-color:blue;*/
+	color:#ff834b;
+	border: 1px solid transparent;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 25px;
+	display: inline-block
+}
+.section4{
+	width: 100%;
+	height:300px;
+/*	background: pink;*/
+}
+.wrapper{
+	padding: 50px 0 0 70px;
+	box-sizing: border-box
+}
+.icon1{
+	float:left;
+	padding:10px 0;
+	box-sizing: border-box;
+	width: 30%;
+	height:190px;
+/*	background: blue;*/
+	}
+.icon1 img{
+	width: 10%;
+	margin-left:200px
+}
+.icon1 h3{
+	font-size:20px;
+	margin-left: 120px;
+	line-height: 50px
+	}
+.icon1 p{
+	font-size:12px;
+	text-align: center;
+	margin-left: 20px;
+}
+.section5{
+	width: 80%;
+/*	padding:0 0 0 130px;*/
+/*	background: #9C1CD3;*/
+/*	box-sizing: border-box;*/
+	margin-left: 130px
+
+}
+.pic2{
+	float:left;
+	width: 45%;
+	height: 550px;
+	background: url("img/7_a43cee96-9331-4857-b3d7-b0927d73fed3_700x.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	}
+.text {
+	float: right;
+	width: 50%;
+	height: 550px;
+	padding: 180px 0 0 20px;
+/*	display: block;*/
+/*	background: #4757CF*/
+/*	margin-right: 80px;*/
+	
+}
+.section5 h2{
+/*	float:right;*/
+	font-size: 28px;
+	
+/*	box-sizing: border-box*/
+}
+.section5 p{
+	margin-top:12px;
+	font-size: 12px;
+
+}
+.text .l--btn2{
+	border-color:#ff834b;
+	margin:45px 0 0 0;
+	
+}
+.l--btn2 {
+
+	color:#ff834b;
+	border: 1px solid transparent;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 25px;
+	display: inline-block
+}
+.footer-wrapper{
+	width: 100%;
+	height: 40px;
+/*	background: #C6CCB0;*/
+	float:left;
+	margin-top: 50px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.footer a{
+	text-decoration: none;
+	color:#858585;
+	font-size:10px;
+	margin:0 15px;
+	float:left;
+}
+.footer a:hover{
+	color:#000000;
+	transition-duration: 0.2s;
+/*	background: #F0851B;*/
+}
+.footer p{
+	font-size:12px;
+	color:#858585;
+	float:left;
+	margin-right: 2.5px;
+}
+.footer a{
+	text-decoration: none;
+	color:#858585;
+	font-size:12px;
+	float:right;	
+}
+.footer2 a{
+	text-decoration: none;
+	color:#858585;
+	font-size: 12px;
+	margin-bottom:30px;
+}
+	
+
+
+
+
+	
+
+
+	
+
+
+	
+	
+
+	
+
+
+
